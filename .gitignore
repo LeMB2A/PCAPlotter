@@ -1,8 +1,8 @@
+# datasets
 toy-dataset
 dataset-pcap
 .venv
-
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+pcap-analyser/src/preprocessed_dataset.json
 
 # dependencies
 pcap-analyser/node_modules
