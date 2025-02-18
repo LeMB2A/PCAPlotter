@@ -79,7 +79,7 @@ For an interactive plotting experience:
      npm start
      ```
 
-The frontend will connect to the backend server, providing an interactive interface for data visualization.
+The frontend will connect to the backend server, providing an interactive interface for data visualization. Please consider the loading time of data from the backend to the frontend, which may take few minutes.
 
 ## Requirements
 
