@@ -1,0 +1,64 @@
+.social-media {
+    padding: 20px;
+    background: #f9f9f9; /* Light background for each chart */
+    width:100%;
+    margin-top:-4%
+  }
+
+  .social-media h2{
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+  
+.chart-row {
+    display: grid;
+    align-content: center;
+    gap: 40px;
+    justify-content: center; 
+    align-items: flex-start; /* Aligns charts to the top */
+    margin-left: -1%;
+    margin-top: -5%;
+  }
+  
+.chart-container {
+    padding: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 1000px;
+    height: 500px;
+  }
+
+  .chart-container canvas {
+    margin-top: -1%;
+    margin-left: 4%;
+    overflow-x: "scroll";
+    overflow-y: "hidden";
+  }
+  
+  .chart-selector {
+    border-top: 1px solid #3f4d5c;
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    justify-content: center; 
+    margin-left: 12%;
+    margin-top: 4%;
+    margin-bottom: -6%;
+  }
+
+  .chart-selector select{
+    margin-left: 0.5%;
+    background-color: #f9f9f9;
+    border: 2px solid #3f4d5c;
+    border-radius: 7px;
+    height: 30px;
+    width: 230px;
+  }
+
+.doughnut-chart{
+  margin-top: -6%;
+  margin-left: 17%;
+  max-width: 85vh;
+}
