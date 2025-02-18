@@ -2,26 +2,26 @@
 toy-dataset
 dataset-pcap
 .venv
-pcap-analyser/src/preprocessed_dataset.json
+/pcap-analyser/src/preprocessed_dataset.json
 
 # dependencies
-pcap-analyser/node_modules
-pcap-analyser/.pnp
-pcap-analyser/.pnp.js
+/pcap-analyser/node_modules
+/pcap-analyser/.pnp
+/pcap-analyser/.pnp.js
 
 # testing
-pcap-analyser/coverage
+/pcap-analyser/coverage
 
 # production
-pcap-analyser/build
+/pcap-analyser/build
 
 # misc
-pcap-analyser/.DS_Store
-pcap-analyser/.env.local
-pcap-analyser/.env.development.local
-pcap-analyser/.env.test.local
-pcap-analyser/.env.production.local
+/pcap-analyser/.DS_Store
+/pcap-analyser/.env.local
+/pcap-analyser/.env.development.local
+/pcap-analyser/.env.test.local
+/pcap-analyser/.env.production.local
 
-pcap-analyser/npm-debug.log*
-pcap-analyser/yarn-debug.log*
-pcap-analyser/yarn-error.log*
+/pcap-analyser/npm-debug.log*
+/pcap-analyser/yarn-debug.log*
+/pcap-analyser/yarn-error.log*
