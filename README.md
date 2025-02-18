@@ -56,7 +56,7 @@ For an interactive plotting experience:
 1. **Start the Backend Server**:
 
    ```bash
-   python analyser.py
+   uvicorn analyser:app --reload
    ```
 
 2. **Launch the Frontend Application**:
