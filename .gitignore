@@ -2,7 +2,7 @@
 toy-dataset
 dataset-pcap
 .venv
-../preprocessed_dataset.json
+/pcap-analyser/src/preprocessed_dataset.json
 # dependencies
 /pcap-analyser/node_modules
 /pcap-analyser/.pnp
