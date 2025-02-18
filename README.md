@@ -1,6 +1,6 @@
 # PCAPlotter
 
-***PCAPlotter*** is a comprehensive tool designed for analyzing and visualizing packet capture (PCAP) data. It offers both statistical analysis and interactive plotting capabilities to help users gain insights into network traffic patterns.
+**PCAPlotter** is a comprehensive tool designed for analyzing and visualizing packet capture (PCAP) data. It offers both statistical analysis and interactive plotting capabilities to help users gain insights into network traffic patterns.
 
 ## Features
 
