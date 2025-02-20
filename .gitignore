@@ -1,13 +1,12 @@
 # datasets
-toy-dataset
 dataset-pcap
 .venv
 /pcap-analyser/src/preprocessed_dataset.json
+
 # dependencies
 /pcap-analyser/node_modules
 /pcap-analyser/.pnp
 /pcap-analyser/.pnp.js
-
 
 # testing
 /pcap-analyser/coverage

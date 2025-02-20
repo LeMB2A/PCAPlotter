@@ -1,6 +1,6 @@
 # PCAPlotter
 
-PCAPlotter is a comprehensive tool designed for analyzing and visualizing packet capture (PCAP) data. It offers both statistical analysis and interactive plotting capabilities to help users gain insights into network traffic patterns.
+**PCAPlotter** is a comprehensive tool designed for analyzing and visualizing packet capture (PCAP) data. It offers both statistical analysis and interactive plotting capabilities to help users gain insights into network traffic patterns.
 
 ## Features
 
@@ -37,6 +37,8 @@ python preprocess.py
 
 This script processes raw PCAP files, converts them into a JSON format, and calculates essential features. However, consider increasing/decreasing the `max_workers` based on your CPU physical and logical cores availability, as the preprocessing can take few hours.
 
+For convenience and time-saving, you can download the [preprocessed dataset](https://drive.google.com/file/d/1LHa8qjez4pAU8UFr7GbQWbDj3dsAvUui/view?usp=drive_link) directly, then put it under the `/pcap-analyser/src/` folder.
+
 ### 4. Statistical Analysis
 
 For a comprehensive statistical analysis:
@@ -56,7 +58,7 @@ For an interactive plotting experience:
 1. **Start the Backend Server**:
 
    ```bash
-   python analyser.py
+   uvicorn analyser:app --reload
    ```
 
 2. **Launch the Frontend Application**:
@@ -79,7 +81,7 @@ For an interactive plotting experience:
      npm start
      ```
 
-The frontend will connect to the backend server, providing an interactive interface for data visualization.
+The frontend will connect to the backend server, providing an interactive interface for data visualization. Please consider the loading time of data from the backend to the frontend, which may take few minutes.
 
 ## Requirements
 
@@ -93,5 +95,3 @@ All necessary Python packages are listed in `requirements.txt`. Install them usi
 ```bash
 pip install -r requirements.txt
 ```
-
-
